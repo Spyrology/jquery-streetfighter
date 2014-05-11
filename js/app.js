@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.ryu').mouseenter(function() {
-    	$('.ryu-still').hide();
+    $('.ryu-still').hide();
 		$('.ryu-ready').show();
 		$('.instructions').fadeOut(2000);
 	})
